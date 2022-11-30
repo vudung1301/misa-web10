@@ -1,0 +1,30 @@
+.sidebar{
+    background-color: #041434;
+    padding:20px 12px;
+    width: 200px;
+    box-sizing: border-box;
+}
+.sidebar-items{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+}
+
+.sidebar-items+.sidebar-items{
+    margin-top: 4px;
+}
+
+.sidebar-items:hover{
+    background-color: #3E1046;
+    cursor: pointer;
+}
+.sidebar-items__icon{
+    font-size:24px ;
+    /* background-color: darkslateblue; */
+    margin-left: 12px;  
+    border-radius: 4px;
+    line-height: 24px;
+    padding-right: 12px;
+}

@@ -1,0 +1,23 @@
+.loading-data{
+  position: fixed;
+  width: calc(100% - 224px);
+  height: calc(100vh - 120px);
+  background-color: rgba(204, 204, 204, 0.322);
+  top: 120px;
+  left: 224px;
+  bottom: 56px;
+  z-index: 5;
+}
+.img-loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%,-50%); */
+  animation: rotate 5s;
+  filter: invert(14%) sepia(96%) saturate(2953%) hue-rotate(200deg) brightness(96%) contrast(101%);
+
+}
+@keyframes rotate{
+  0% {transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
